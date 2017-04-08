@@ -1,4 +1,4 @@
-Play 2.5.12 + Angular 2.x with Angular-CLI + SBT - based build
+Play 2.5.12 + Angular 2.x with Angular-CLI + Java - based build
 ======================================================================
 
 This template contains standard distribution of **Play Framework 2.5.12** along with UI built with **Angular 2.x**.
@@ -46,21 +46,13 @@ Migration from older version of this seed:
 - Refactor tests to use `TestBed` instead of `inject`, use `async` tests for Zone.js async tracking
 - Most probably `main.ts` will need some refactoring to match new one - we're using Angular 2 modules now.
 
-Good luck!
-
 Feel free to ask questions, post issues and even PRs if you find this seed broken or lacking in any way.
+
+Its a fork of [https://github.com/lbialy/play-ng2-webpack2](https://github.com/lbialy/play-ng2-webpack2)
 
 Licensing
 ---------
 
-All libraries and frameworks are licensed under their own licenses. Everything else (meaning my glue code) is under MIT:
-
 The MIT License (MIT)
 
-Copyright (c) 2016 Łukasz Biały
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Copyright (c) 2017 Sakib Sami

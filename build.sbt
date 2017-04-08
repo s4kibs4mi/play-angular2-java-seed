@@ -1,10 +1,10 @@
 import scala.language.postfixOps
 
-name := """play-ng"""
+name := """play-angular2-java-seed"""
 
-version := "0.1-SNAPSHOT"
+version := "0.1"
 
-lazy val root = (project in file(".")).enablePlugins(PlayScala)
+lazy val root = (project in file(".")).enablePlugins(PlayJava)
 
 scalaVersion := "2.11.8"
 
